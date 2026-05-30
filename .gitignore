@@ -1,0 +1,22 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude sensitive variables
+# terraform.tfvars (Optional: Keep it if it doesn't have secrets, but usually better to ignore)
+# *.tfvars
+# *.tfvars.json
+
+# Exclude terraform env files
+.terraform.tfstate.lock.info
+
+# Exclude plan files
+*.tfplan
+*.tfgraph
