@@ -36,7 +36,7 @@ variable "vm_size" {
   description = "Size of the VMs in the node pool"
 }
 
-variable "enable_auto_scaling" {
+variable "auto_scaling_enabled" {
   type    = bool
   default = true
 }
